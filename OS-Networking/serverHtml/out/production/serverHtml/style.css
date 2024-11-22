@@ -1,0 +1,232 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+main {
+  flex: 1;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: #281c14;
+  padding:5px;
+}
+
+header nav {
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+    margin-top: -0.7%;
+    background-color:#281c14;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: color #05386b;
+}
+
+header nav ul li {
+  float: right;
+    width: 12%;
+}
+
+header nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:20px;
+}
+
+header nav ul li a:hover,a:active{
+  background-color:white;
+  color: black;
+  font-size: 25px;
+
+}
+
+#hero {
+  background-image: url('sliki/h1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+#hero .container1 {
+  max-width: 1200px;
+  margin: 300px auto;
+  text-align:center;
+}
+
+#hero .p {
+  margin-top:10px;
+}
+
+#hero .button {
+  background-color: white;
+  color: #F4A261;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1em;
+}
+
+.image-container{
+background-color: #281c14;
+height:400px;
+max-width:auto;
+}
+
+.image-container img3{
+height:auto;
+max-width:auto;
+}
+#about{
+background-color:#281c14;
+padding:80px 0;
+}
+#about h1 {
+  color: white;
+  text-align: center;
+  margin-top: 0;
+}
+#about p{
+  color: #F4A261;
+  margin:0px 100px auto;
+}
+
+time h2{
+  color: #F4A261;
+  
+}
+
+
+footer .links{
+  width: 100%;
+  overflow: auto;
+  text-align: center;
+  padding-bottom: 20px;
+  align-items: center;
+}
+footer .links a {
+  padding: 12px;
+  color: white;
+  width: 15%;
+}
+footer .fa-facebook {
+  background: #3B5998;
+  color: white;}
+
+footer .fa-instagram {
+      background: purple;
+      color: white;
+  }
+footer .fa-phone-volume{
+  background: green;
+      color: white;
+
+}
+footer .links a:hover {
+    background:violet;
+
+}
+address{
+  color:white;
+  margin-bottom: -10px;
+  font-size: 20px;
+  text-align: center;
+}
+address a{
+  color:#F4A261;
+}
+address a:hover{
+  color:green;
+}
+#Contact h2{
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  margin-top: -17px;
+  padding-bottom: 10px;
+}
+
+footer {
+  background-color:#333;
+  padding: 30px;
+  margin-bottom: -80px;
+}
+
+
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+.mySlides {
+  float: left;
+  width: 33.33%;
+  height: 300px;
+}
+
+.mySlides img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
